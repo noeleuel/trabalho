@@ -1,0 +1,256 @@
+body {
+background-color: #f8bd72;
+margin: 0%;
+
+}
+
+header{
+background-color: #da8838;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 120px;
+line-height: 120px;
+}
+
+.la {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.links > a {
+
+margin-right: 1em;
+margin-left: 1em;
+padding: 1.86em 1.42em;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+.links > a:visited{
+    color: rgb(35, 35, 35)
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens/carrinho.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}    
+
+.banner-texto{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #da89387a;
+    padding: 20px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.banner-texto:hover{
+    transform: translate(-10px);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+    
+    }
+
+    footer {
+
+    background-color: #da8838;
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+    }
+
+    footer > a {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .frutao {
+    width:200px ;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    }
+
+    .bla{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .aaa {
+     display: flex;
+     background-color:  rgb(33, 105, 105);
+     width: 60px;
+     font-family: monospace;
+     color: rgb(0, 0, 0);
+     border-radius: 1000px;
+     padding: 10px;
+     text-align: center;
+    }
+
+
+
+
+
+
+    .container-pai{
+        display: flex;
+        padding: 25px;
+        background-color: #f8bd72;
+        flex-wrap: wrap;
+        gap: 10px;
+        
+        }
+
+
+
+    .container-filho{
+        background-color: rgba(32, 31, 29, 0.525);
+        width: 70px;
+        font-family: monospace;
+        color: azure;
+        border-radius: 10px;
+        padding: 9px;
+        text-align: center;
+        
+        }
+        
+        
+
+
+
+
+
+        .container-horta {
+            background-color: rgb(208, 244, 175);
+            
+padding: 10px;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;
+
+        }
+
+        .container-hortinha {
+text-align: center;
+display: flex;
+background-color: rgba(50, 74, 56, 0.601);
+padding: 10px;
+flex-direction: column;
+gap: 10px;
+
+        }
+
+
+
+.frutao {
+background-color: aquamarine;
+text-align: center;
+width: auto;
+height: 300px;
+gap: 20px;
+border-radius: 20%;
+}
+
+.aaaa {
+    color: #940505;
+}
+
+.container-limpao {
+background-color: rgb(170, 227, 220);
+padding: 10px;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;}
+
+
+
+.container-limpinho {
+ overflow: hidden;   
+padding-bottom: 75%;
+text-align: center;
+display: flex;
+background-color: rgba(45, 106, 109, 0.616);
+padding: 10px;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.lipaozao{
+    background-color: aquamarine;
+    text-align: center;
+    width: auto;
+    height: 300px;
+    gap: 20px;
+    border-radius: 20%;
+    }
+
+.blabla {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+} 
+
+
+.container-pao {
+    background-color: rgb(111, 33, 33);
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;}
+    
+    
+    
+    .container-paozinho {
+     overflow: hidden;   
+    padding-bottom: 75%;
+    text-align: center;
+    display: flex;
+    background-color: rgb(135, 25, 25);
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    
+    }
+    
+    .paozao{
+        background-color: aquamarine;
+        text-align: center;
+        width: auto;
+        height: 300px;
+        gap: 20px;
+        border-radius: 20%;
+        }
